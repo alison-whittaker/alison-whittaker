@@ -1,24 +1,15 @@
 # Alison Whittaker Portfolio
 
-A responsive static portfolio built with HTML, CSS, and vanilla JavaScript.
+Deploy-ready GitHub Pages site for `https://alison-whittaker.github.io/`.
 
-## Preview
+## Publish
 
-Open `index.html` in a browser, or run a local static server from this folder.
+Upload every file in this folder directly to the root of the `alison-whittaker.github.io` repository:
 
-## Publish with GitHub Pages
+- `index.html`
+- `styles.css`
+- `script.js`
+- `alison-whittaker-profile.png`
+- `Alison-Whittaker-Resume-2026.pdf`
 
-1. Create a GitHub repository.
-2. Upload the contents of this folder to the repository root.
-3. In **Settings → Pages**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)` folder.
-
-The site has no build step or external dependencies.
-
-## Update
-
-- Page content: `index.html`
-- Colors and layout: `styles.css`
-- Mobile menu: `script.js`
-- Header portrait: `assets/alison-whittaker-profile.png`
-- Downloadable résumé: `assets/Alison-Whittaker-Resume-2026.pdf`
+Do not upload the enclosing folder. All site assets intentionally live at the repository root.
