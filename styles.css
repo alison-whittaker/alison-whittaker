@@ -418,9 +418,8 @@ h1 {
 
 .testimonial-card {
   display: flex;
-  min-height: 610px;
+  min-height: 540px;
   flex-direction: column;
-  justify-content: space-between;
   margin: 0;
   padding: 42px;
   border-radius: var(--radius);
@@ -435,12 +434,12 @@ h1 {
 }
 
 .testimonial-card > p {
-  margin: auto 0;
+  margin: 26px 0 40px;
   color: var(--ink);
-  font-size: clamp(1.55rem, 2.45vw, 2.35rem);
+  font-size: clamp(1.25rem, 1.75vw, 1.7rem);
   font-weight: 720;
-  letter-spacing: -.05em;
-  line-height: 1.13;
+  letter-spacing: -.035em;
+  line-height: 1.28;
 }
 
 .testimonial-card-secondary {
@@ -459,6 +458,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-top: auto;
   padding-top: 30px;
   border-top: 1px solid color-mix(in srgb, var(--accent) 34%, transparent);
   background: transparent;
@@ -676,7 +676,7 @@ footer { padding-block: 28px; background: var(--cocoa); color: #f5ece7; }
   .impact-card-large { grid-row: auto; min-height: 320px; }
   .impact-card-large h3 { margin-top: 60px; }
   .recognition-layout { grid-template-columns: 1fr; }
-  .testimonial-card { min-height: 500px; }
+  .testimonial-card { min-height: 440px; }
   .search-grid { grid-template-columns: 1fr; }
   .tools-list { grid-template-columns: 1fr 1fr; gap: 24px 0; }
   .tools-list div, .tools-list div:first-child, .tools-list div:last-child { padding: 0 20px; border-left: 1px solid var(--line); }
@@ -723,7 +723,8 @@ footer { padding-block: 28px; background: var(--cocoa); color: #f5ece7; }
   .impact-grid { grid-template-columns: 1fr; }
   .impact-card, .impact-card-large { min-height: 290px; }
   .impact-card h3 { margin-top: 65px; }
-  .testimonial-card { min-height: 430px; padding: 28px; }
+  .testimonial-card { min-height: 0; padding: 28px; }
+  .testimonial-card > p { margin: 20px 0 32px; }
   .awards-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
   .award-list { grid-template-columns: 1fr; }
   .award-list article { grid-template-columns: 1fr; gap: 10px; padding: 24px; border-right: 0; }
